@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.resume-content{
+    min-height: calc(100vh - 80px);
+}
+
+.title-resume{
+    display: flex;
+    justify-content: center;
+    padding-top: 103px;
+    align-items: center;
+}
+
+.title-resume hr{
+    border: 1px solid rgba(245, 45, 48, 0.2);
+    width: 100px;
+    height: 0;
+}
+
+.title-resume h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    color: #F52D30;
+}
+
+.resume-hr{
+    width: 87%;
+    margin-left: 6%;
+    margin-top: 103px;
+    margin-bottom: 100px;
+}
+
+.resume-input{
+    display: flex;
+    margin-top: 40px;
+}
+
+.resume-input label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+    width: 286px;
+    white-space: nowrap;
+
+    color: #000000;
+}
+
+.resume-input span{
+    color: #F52D30;
+}
+.resume-input p{
+    margin-left: 4%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    width: 600px;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+.resume-input input{
+    margin-left: 18%;
+    width: 500px;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.resume-input input:focus{
+    outline: none;
+}
+
+.resume-me{
+    margin-left: 14%;
+    width: 73%;
+}
+
+.resume-work{
+    display: flex;
+    margin-top: 40px;
+}
+
+.resume-work label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+    width: 286px;
+    white-space: nowrap;
+
+    color: #000000;
+}
+
+.resume-work input{
+    margin-left: 18%;
+    width: 500px;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.resume-work input:focus{
+    outline: none;
+}
+
+.resume-work span{
+    color: #F52D30;
+}
+.resume-work p{
+    margin-left: 4%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    width: 600px;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.resume-btn{
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+
+.resume-btn button{
+    width: 324px;
+    height: 76px;
+    background: #F52D30;
+    border-radius: 7px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+
+    color: #FFFFFF;
+}
+
+.resume-btn img{
+    padding-right: 13px;
+    padding-left: 29px;
+}
