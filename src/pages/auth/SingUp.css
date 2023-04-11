@@ -16,7 +16,7 @@
 .box-reg{
     position: absolute;
     width: 600px;
-    height: 915px;
+    height: 1029px;
     left: calc(50% - 600px/2);
     top: calc(50% - 915px/2 + 13.5px);
     background: #FFFFFF;

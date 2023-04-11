@@ -14,9 +14,9 @@
 }
 
 .box-auth{
-    width: 600px;
+    width: 546px;
     height: 512px;
-    left: calc(50% - 600px/2);
+    left: calc(50% - 546px/2);
     position: relative;
     top: calc(50% - 512px/2);
     background: #FFFFFF;
@@ -26,7 +26,7 @@
 
 .sing-up img{
     padding-top: 17px;
-    padding-left: 250px;
+    padding-left: 223px;
 }
 
 .sing-up h1{
@@ -39,10 +39,10 @@
 }
 
 .login{
-    padding-left: 83px;
+    padding-left: 56px;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 22px;
 
     color: rgba(0, 0, 0, 0.65)
@@ -51,7 +51,7 @@
 .input-data{
     padding-top: 20px;
     display: flex;
-    padding-left: 85px;
+    padding-left: 62px;
     padding-bottom: 10px;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .password{
-    padding-left: 83px;
+    padding-left: 56px;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -99,7 +99,7 @@
     font-weight: 500;
     font-size: 22px;
     line-height: 24px;
-    padding-left: 101px;
+    padding-left: 74px;
     padding-top: 10px;
     display: block;
 
@@ -111,7 +111,7 @@
 }
 
 .auth-btn{
-    padding-left: 238px;
+    padding-left: 211px;
     padding-top: 32px;
 }
 
@@ -138,10 +138,14 @@
     cursor: pointer;
 }
 
+.next{
+    display: flex;
+    justify-content: center;
+}
+
 .next button{
     background: none;
     border: none;
-    padding-left: 170px;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;

@@ -6,6 +6,7 @@ export const SingUp = () =>{
   const [login, setLogin] = useState('')
   const [pass, setPass] = useState('')
   const [name, setName] = useState('')
+  const [city, setCity] = useState('')
   const [lastName, setLastName] = useState('')
   const [secondPass, setSecondPass] = useState('')
   const[email, setEmail] = useState('')
@@ -45,6 +46,18 @@ export const SingUp = () =>{
             value={lastName} onChange={(e) => setLastName(e.target.value)}
             type='text'
             placeholder="Введите вашу фамилию">
+          </input>
+        </div>
+        <hr className="hr-data"></hr>
+        <label
+          for="city"
+          className='lastName'>Город</label>
+        <div className='input-dt'>
+          <img src='/img/city.svg' alt='city'/>
+          <input
+            value={city} onChange={(e) => setCity(e.target.value)}
+            type='text'
+            placeholder="Введите ваш город">
           </input>
         </div>
         <hr className="hr-data"></hr>

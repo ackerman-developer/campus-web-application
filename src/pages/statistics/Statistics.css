@@ -62,5 +62,13 @@
 .chart{
     padding-top: 55px;
     margin-left: 15%;
-    margin-right: 15%;
+    width: 840px;
+    height: 430px; 
+} 
+
+.chart1{
+    padding-top: 55px;
+    width: 458px;
+    height: 458px;
+    margin-left: 15%;
 }

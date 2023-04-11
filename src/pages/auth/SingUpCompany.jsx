@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useEffect } from 'react'
 import './SingUpCompany.css'
 
 export const SingUpCompany = () =>{
@@ -15,6 +16,10 @@ export const SingUpCompany = () =>{
         e.preventDefault()
         console.log(login)
     }
+
+    useEffect(() => {
+        document.title = 'Регистрация'
+    })
 
     return(
         <div className='register-company'>

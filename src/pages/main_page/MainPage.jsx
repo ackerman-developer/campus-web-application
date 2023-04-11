@@ -43,6 +43,14 @@ export const MainPage = () => {
                             программ поддержки студенчества Свердловской области. Создавай свою лучшую
                             студенческую жизнь вместе с нами.</p1>
                     </div>
+                    <div className="btn-fund">
+                        <button
+                            id="post-vacancy"
+                            onClick={() => navigate('/PostVacancy')}>Опубликовать вакансию</button>
+                        <button 
+                            id="create-resume"
+                            onClick={() => navigate('/CreateResume')}>Создать резюме</button>
+                    </div>
                 </div>
                 <Footer />
             </div>
